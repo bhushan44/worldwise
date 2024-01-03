@@ -5,6 +5,7 @@ export default function Homepage() {
   return (
     <main className={styles.homepage}>
       <PageNav></PageNav>
+
       <section>
         <h1>
           You travel the world.
