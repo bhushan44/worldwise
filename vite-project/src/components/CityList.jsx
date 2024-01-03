@@ -15,7 +15,7 @@ export default function CityList() {
     <div className={styles.cityList}>
       <ul className={styles.cityList}>
         {cities.map((city) => (
-          <CityItem city={city}></CityItem>
+          <CityItem city={city} id={city.id}></CityItem>
         ))}
       </ul>
     </div>
