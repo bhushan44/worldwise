@@ -1,162 +1,6 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": 73930385
-    },
-    {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
-      "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": 17806751
-    },
-    {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": 98443197
-    },
-    {
-      "cityName": "Albergaria-a-Velha",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2024-01-03T15:01:24.617Z",
-      "notes": "",
-      "position": {
-        "lat": "40.733850469893284",
-        "lng": "-8.415527343750002"
-      },
-      "id": 98443198
-    },
-    {
-      "cityName": "Albergaria-a-Velha",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2024-01-03T15:01:24.617Z",
-      "notes": "",
-      "position": {
-        "lat": "40.733850469893284",
-        "lng": "-8.415527343750002"
-      },
-      "id": 98443199
-    },
-    {
-      "cityName": "Albergaria-a-Velha",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2024-01-03T15:01:24.617Z",
-      "notes": "",
-      "position": {
-        "lat": "40.733850469893284",
-        "lng": "-8.415527343750002"
-      },
-      "id": 98443200
-    },
-    {
-      "cityName": "Albergaria-a-Velha",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2024-01-03T15:01:24.617Z",
-      "notes": "",
-      "position": {
-        "lat": "40.733850469893284",
-        "lng": "-8.415527343750002"
-      },
-      "id": 98443201
-    },
-    {
-      "cityName": "Albergaria-a-Velha",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2024-01-03T15:01:24.617Z",
-      "notes": "",
-      "position": {
-        "lat": "40.733850469893284",
-        "lng": "-8.415527343750002"
-      },
-      "id": 98443202
-    },
-    {
-      "cityName": "Albergaria-a-Velha",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2024-01-03T15:01:24.617Z",
-      "notes": "",
-      "position": {
-        "lat": "40.733850469893284",
-        "lng": "-8.415527343750002"
-      },
-      "id": 98443203
-    },
-    {
-      "cityName": "Albergaria-a-Velha",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2024-01-03T15:01:24.617Z",
-      "notes": "",
-      "position": {
-        "lat": "40.733850469893284",
-        "lng": "-8.415527343750002"
-      },
-      "id": 98443204
-    },
-    {
-      "cityName": "Areny de Noguera / Aren",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2024-01-03T15:06:32.030Z",
-      "notes": "",
-      "position": {
-        "lat": "42.29181363809442",
-        "lng": "0.7091881166543025"
-      },
-      "id": 98443205
-    },
-    {
-      "cityName": "Areny de Noguera / Aren",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2024-01-03T15:06:32.030Z",
-      "notes": "",
-      "position": {
-        "lat": "42.29181363809442",
-        "lng": "0.7091881166543025"
-      },
-      "id": 98443206
-    },
-    {
-      "cityName": "Montfa",
-      "country": "France",
-      "emoji": "🇫🇷",
-      "date": "2024-01-03T15:06:32.030Z",
-      "notes": "",
-      "position": {
-        "lat": "43.69876407667582",
-        "lng": "2.211568529756409"
-      },
-      "id": 98443207
-    },
-    {
       "cityName": "Sort",
       "country": "Spain",
       "emoji": "🇪🇸",
@@ -181,64 +25,40 @@
       "id": 98443209
     },
     {
-      "cityName": "Pomer",
+      "cityName": "Pezuela de las Torres",
       "country": "Spain",
       "emoji": "🇪🇸",
-      "date": "2024-01-03T15:18:41.425Z",
+      "date": "2024-01-04T01:36:45.227Z",
       "notes": "",
       "position": {
-        "lat": "41.654303368540994",
-        "lng": "-1.8208802857073805"
+        "lat": "40.41659925036934",
+        "lng": "-3.1420898437500004"
       },
       "id": 98443210
     },
     {
-      "cityName": "Morella",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2024-01-03T15:20:52.476Z",
+      "cityName": "Nellore",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2024-01-04T01:36:59.795Z",
       "notes": "",
       "position": {
-        "lat": "40.56093142447002",
-        "lng": "-0.017619649421265482"
+        "lat": "14.404886480039174",
+        "lng": "79.969482421875"
       },
       "id": 98443211
     },
     {
-      "cityName": "Mora de Rubielos",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2024-01-03T15:21:25.405Z",
+      "cityName": "Totapalliguduru",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2024-01-04T01:36:59.795Z",
       "notes": "",
       "position": {
-        "lat": "40.343426672774584",
-        "lng": "-0.7003784599771069"
+        "lat": "14.40492325971979",
+        "lng": "80.04638671875001"
       },
       "id": 98443212
-    },
-    {
-      "cityName": "Pina de Ebro",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2024-01-03T15:24:45.711Z",
-      "notes": "",
-      "position": {
-        "lat": "41.57211004140111",
-        "lng": "-0.3259623380593913"
-      },
-      "id": 98443213
-    },
-    {
-      "cityName": "Bay of Biscay",
-      "country": "France",
-      "emoji": "🇫🇷",
-      "date": "2024-01-03T15:26:16.154Z",
-      "notes": "",
-      "position": {
-        "lat": "44.100879221069285",
-        "lng": "-1.33810370632576"
-      },
-      "id": 98443214
     }
   ]
 }

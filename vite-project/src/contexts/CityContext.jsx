@@ -30,9 +30,16 @@ function ContextProvider({ children }) {
     const data = await res.json();
     setcities((cities) => [...cities, data]);
   }
+  async function deleteCity(id) {
+    await fetch(`${url}/cities/${id}`, {
+      method: "DELETE",
+    });
+    // const data = await res.json();
+    setcities((cities) => cities.filter((city) => city.id !== id));
+  }
   return (
     <CityContext.Provider
-      value={{ cities: cities, currentCity, getCity, createCity }}
+      value={{ cities: cities, currentCity, getCity, createCity, deleteCity }}
     >
       {children}
     </CityContext.Provider>

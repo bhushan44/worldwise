@@ -12,31 +12,35 @@ import CountryList from "./components/CountryList";
 import City from "./components/City";
 import Form from "./components/Form";
 import { ContextProvider } from "./contexts/CityContext";
+import { AuthProvider } from "./contexts/AuthContext";
 export default function App() {
   return (
     <>
-      <ContextProvider>
-        <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<Homepage></Homepage>}></Route>
+      <AuthProvider>
+        <ContextProvider>
+          <BrowserRouter>
+            <Routes>
+              <Route path="/" element={<Login></Login>}></Route>
 
-            <Route path="pricing" element={<Pricing></Pricing>}></Route>
-            <Route path="login" element={<Login></Login>}></Route>
+              <Route path="pricing" element={<Pricing></Pricing>}></Route>
+              <Route path="login" element={<Login></Login>}></Route>
 
-            <Route path="product" element={<Product></Product>}></Route>
-            <Route path="app" element={<AppLayout></AppLayout>}>
-              <Route
-                index
-                element={<Navigate replace to="cities"></Navigate>}
-              ></Route>
-              <Route path="cities" element={<CityList></CityList>}></Route>
-              <Route path="cities/:id" element={<City></City>} />
-              <Route path="countries" element={<CountryList></CountryList>} />
-              <Route path="form" element={<Form></Form>} />
-            </Route>
-          </Routes>
-        </BrowserRouter>
-      </ContextProvider>
+              <Route path="product" element={<Product></Product>}></Route>
+              <Route path="app" element={<AppLayout></AppLayout>}>
+                <Route
+                  index
+                  element={<Navigate replace to="cities"></Navigate>}
+                ></Route>
+                <Route path="cities" element={<CityList></CityList>}></Route>
+                <Route path="cities/:id" element={<City></City>} />
+                <Route path="countries" element={<CountryList></CountryList>} />
+              </Route>
+              <Route path="homepage" element={<Homepage></Homepage>} />
+              <Route path="form" element={<Form></Form>}></Route>
+            </Routes>
+          </BrowserRouter>
+        </ContextProvider>
+      </AuthProvider>
     </>
   );
 }
